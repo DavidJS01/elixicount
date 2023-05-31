@@ -1,4 +1,4 @@
-# CalCounting
+# Elixicount: Beautiful Calorie Counting
 
 **TODO: Add description**
 
