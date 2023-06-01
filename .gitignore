@@ -1,3 +1,6 @@
+# SQLite DB
+/db/
+/db/elixicount.*
 
 # CLI executable
 elixicount_cli
