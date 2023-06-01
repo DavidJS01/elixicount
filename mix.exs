@@ -24,14 +24,14 @@ defmodule Elixicount.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:decimal, "~> 2.0"},
-      {:optimus, "~> 0.2"}
+      {:optimus, "~> 0.2"},
+      {:ecto_sqlite3, "~> 0.10"}
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
 
   defp escript do
-    [main_module: CalCLI]
+    [main_module: CalCLI, name: "elixicount_cli"]
   end
 
 end
